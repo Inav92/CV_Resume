@@ -1,0 +1,206 @@
+\documentclass[latterpaper]{article}
+\usepackage[utf8]{inputenc}
+
+%\title{CV_01}
+%\author{ivan.navarrete1992 }
+%\date{August 2020}
+
+\usepackage{polyglossia}
+%%%si usamos compiladores más modernos como xelatex o lualatex, podemos usar el paquete polyglossia1. Este paquete es más simple y ligero aprovechando que estos compiladores ya gestionan la codificación y las fuentes de por sí. En este caso no cargamos el idioma como opción, sino que lo elegimos con el comando \setmainlanguage:
+\setmainlanguage{spanish}
+
+\usepackage{parskip} %para generar espacios en blanco, no necesario agregar \\
+
+\usepackage{color, graphicx} %¿colores? aqui la duda es si es necesario usar \RequirePackage{color,graphicx}
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%otra manera que quizas sea buena:
+%\usepackage{hyperref}
+%\hypersetup{
+%%    colorlinks=true,
+%%    linkcolor=cyan,
+%%    filecolor=magenta,
+%%    urlcolor=blue,
+%%}
+
+\usepackage{fullpage} %Ajuste a la pagina, la idea es buscar un ajuste correcto al tipo carta
+\usepackage{titlesec}	
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+%\usepackage{amssymb}
+\usepackage{fontawesome} %Esto permite usar los iconos
+
+\usepackage{multicol}
+\newenvironment{twocollist}{
+    \begin{multicols}{2}
+    \begin{itemize}
+    }{
+    \end{itemize}
+    \end{multicols}
+}
+
+\begin{document}
+
+
+\pagestyle{empty} %ante modificaciones para formato de pagina
+
+\par{\centering
+		{\Huge \textsc{Iván Navarrete Palomera} %\textsc{} resulta en palabras con mayusculas"
+	}\par}	
+	\rule{\textwidth}{0.1pt}
+
+
+    \begin{center}
+        Ingeniero Civil en Obras civiles - Universidad de Santiago de Chile \newline\newline
+        \begin{tabular}{ll}
+            \faGithub~\href{https://github.com/Inav92}{github.com/Inav92} & \faAt~\href{mailto:ivan.navarrete1992@gmail.com}{\texttt{ivan.navarrete1992@gmail.com}} \\
+            \faMapMarker~    Santiago RM, Chile & \faPhone~+56 949 772 860 \\
+        \end{tabular}
+        \newline \newline
+        Descargar la ultima versión de este documento 
+        \href{https://github.com/Inav92}{\faDownload}.
+        (Ultima actualización: \today)
+%        \rule{\textwidth}{0.1pt}
+%
+    \end{center}
+	
+\section{Resumen y Objetivos}
+
+
+\par{Profesional altamente motivado, titulado de Ingeniería Civil en Obras Civiles en Octubre del 2018, en búsqueda de continuar su aprendizaje y experiencia en empresas que le permitan crecer profesionalmente, donde pueda encontrar una guía y contribuir con su pasión a la Ingeniería. Con gran deseo de incorporarse a equipos de trabajo multidisciplinarios y diversificados, de trabajar en proyectos de Construcción, Mineros o Viales, que se diferencien, dentro o fuera de la Región Metropolitana.
+\textbf{Disponibilidad inmediata}.}
+	
+% \rule{\textwidth}{0.1pt}
+		
+	
+\section{Experiencia Laboral}
+	
+	
+%\begin{center}
+    
+
+    \begin{tabular}{r | p{13.0 cm}}
+%\emph{PALABRA}: enfasis
+
+        \emph{05/2019 - 03/2020} & \textsc{\textbf{CEMOSA}} \emph{\textbf{Agencia en Chile - Laboratorio en Obra}}\\\emph{(10 meses)}&
+         %\footnotesize{ 
+        \par{\textbf{Ingeniero en laboratorio de materiales}, faena hidroeléctrica ``Los Cóndores'' Ruta CH-115, San Clemente, Región del Maule. Obra a cargo de la constructora FERROVIAL AGROMAN, que compromete 16 km de túneles excavados con TBM, minería convencional, edificación  y trabajos afines en circunstancias climáticas adversas.}
+
+        %\newline{}
+\textbf{$\nabla$ Trabajos desarrollados - Conocimientos adquiridos:}
+  \begin{itemize}
+\item Normativa nacional e internacional aplicada a obras civiles, viales y de minería
+\item Ensayos de laboratorio y controles  \emph{in-situ}
+\item Creación de planillas de cálculo, programas, informes y protocolos de gestión 
+\item Dosificación y cuidados de hormigones de alta resistencia (>70 MPa)
+\item Métodos constructivos de alta tecnología 
+\item Administración de personal y formación de grupos de trabajo
+ \end{itemize}  
+% }
+
+
+
+ \\\multicolumn{2}{c}{} \\
+
+\emph{Enero - Marzo} & \textsc{\textbf{CEMOSA}} \emph{\textbf{Agencia en Chile}}\\\emph{2018}&
+ %\footnotesize{ 
+Faena hidroeléctrica ``Los Cóndores'' Ruta CH-115, San Clemente, Región del Maule.
+Allí colabora con la ejecución de informes y ensayos de laboratorio de materiales.
+%}
+% }
+ \\\multicolumn{2}{c}{} \\
+
+	
+\emph{Enero - Marzo} &\textsc{\textbf{CEMOSA}} \emph{\textbf{Agencia en Chile}} \\\emph{2017}& 
+%\footnotesize{
+Realiza \textbf{práctica profesional de Ingeniería Civil} en CEMOSA, \emph{Centro de Estudios de Materiales de Obra}, laboratorio de materiales.
+%}
+\\\multicolumn{2}{c}{} \\
+
+
+\emph{Enero - Junio} & \textbf{\textsc{BUDNIK S.A.}} \emph{Baldosas, prefabricados de hormigón y deco-hogar}\\\emph{2011}&
+%\footnotesize{
+Lleva a cabo su \textbf{práctica de Contador técnico de nivel medio}, experiencia que le otorga conocimientos en la gestión de compras y ventas, documentos contables y procedimientos tributarios.
+%}	
+	
+\end{tabular}	
+
+
+%\rule{\textwidth}{0.1pt}
+
+
+\section{Educación}
+	
+\begin{tabular}{r p{14 cm}}	
+\emph{2012 - 2018} & \textbf{\textsc{Universidad de Santiago de Chile}} | \emph{Titulado de Ingeniería Civil en Obras Civiles} \\
+
+&Completa sus estudios de pregrado, graduándose como Ingeniero Civil en Obras Civiles. Obteniendo una calificación máxima en su examen de grado.\\
+&\textbf{Tesis}: \emph{``Modelación computacional del comportamiento histerético de conexiones en paneles de madera contra-laminada''} | Profesor guía: PhD. Erick Saavedra Flores \textsc{\textit{PhD in Civil Engineering (Swansea, Wales, UK).}}\\\multicolumn{2}{c}{}
+\end{tabular}
+	
+\begin{tabular}{r p{14,0 cm}}	
+\emph{2007 - 2010} & \textbf{\textsc{Instituto Superior de Comercio Eduardo Frei Montalva}}\\
+& Finaliza sus estudios de enseñanza media, graduándose como contador técnico de nivel medio.
+
+\end{tabular}
+
+\begin{tabular}{r p{14,0 cm}}	
+\emph{Académicas} & \textbf{\textsc{Ayudante, curso de Diseño en Hormigón Armado}}\\  
+&~Se desempeña como ayudante del curso de Hormigón Armado I, impartido en la Universidad de Santiago, para alumnos de Ingeniería Civil en Obras Civiles (plan vespertino). En él logra consolidar y brindar sus conocimientos sobre el diseño con hormigón armado aplicando las normativas naciones e internacionales (A.C.I. 318).\\\\
+\end{tabular}
+
+
+\begin{tabular}{r p{14.0 cm}}	
+\emph{\phantom{cincó}Cursos} & \textbf{\textsc{Seismology Skill Building Workshop (06/2020 - 09/2020)}}\\
+& Participa de curso de Sismología, impartido por la institución IRIS (info-web: \url{https://www.iris.edu/hq/short-courses/course/ssb_workshop}) con fin de ampliar sus conocimientos respecto a los terremotos. El programa incluye los siguientes tópicos:\\
+&
+\begin{itemize}
+\item Introducción a la computación científica y estrategias de programación
+\item Grabaciones sismológicas y análisis de códigos sismográficos
+\item Acceso, herramientas de visualización y manipulación de datos sísmicos
+\item Eliminación de ruido, correlación de datos e inducción de sismicidad
+  \end{itemize}\\
+  \end{tabular}
+
+\section{Aptitudes y Competencias}
+
+%\begin{tabular}{r p{13.3 cm}}
+  \begin{twocollist}
+            \item \faLanguage~Inglés B1+ (Intermedio) actualmente cursando estudios, en vías de mejorar su nivel de Inglés \href{https://github.com/Inav92}{(link al certificado)}, preparando examen IELTS.
+            \item \faFileExcelO~\texttt{Excel} nivel avanzado.
+            \item \faCode~\texttt{SAP2000}, \texttt{Python} \href{https://coursera.org/share/07ea9a609345e33b5b1b5b0e33925258}{(ver certificado)}, \texttt{ANSYS}, \texttt{ETABS}. Para la modelación computacional.
+            \item \faLinux~GNU/Linux usuario entusiasta.
+            \item Siempre buscando aprender cosas nuevas.
+            \item Con buenas practicas comunicativas, logrando esclarecer sus ideas.
+            \item Respetuoso y colaborativo, con adaptabilidad a diversos ambientes laborales.
+            \item Buena capacidad de análisis y resolución de problemas.
+  \end{twocollist}
+
+
+
+\section{Intereses y Actividades}
+
+  \begin{twocollist}
+            \item Modelación estructural, Matemática, Física y ciencia de los materiales.
+            \item El empleo de nuevos materiales y energías no convencionales.
+            \item Obras Viales y Edificación.
+            \item Diseño en acero y hormigón armado.
+            \item Minería, mecánica de suelos y rocas.
+            \item Programación y manejo de datos.
+            \item Interprete aficionado de piano clásico.
+            \item Deportes: trekking y natación.
+            \item Licencia de conductor clase B desde 2015
+
+  \end{twocollist}
+
+
+
+
+
+
+\end{document}
